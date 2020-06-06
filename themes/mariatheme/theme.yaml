@@ -1,0 +1,6 @@
+name: MariaTheme
+description: MariaTheme
+author: 'Maria F'
+homepage: ''
+code: MariaFTheme
+form: config/fields.yaml
