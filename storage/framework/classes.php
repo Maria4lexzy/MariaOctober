@@ -60,4 +60,7 @@
   'RainLab\\Forum\\Components\\Member' => 'plugins\\rainlab\\forum\\components\\Member.php',
   'RainLab\\Forum\\Components\\EmbedTopic' => 'plugins\\rainlab\\forum\\components\\EmbedTopic.php',
   'RainLab\\Forum\\Components\\EmbedChannel' => 'plugins\\rainlab\\forum\\components\\EmbedChannel.php',
+  'rainlab\\blog\\Controllers\\posts' => 'plugins\\rainlab\\blog\\controllers\\posts.php',
+  'RainLab\\Blog\\Models\\PostImport' => 'plugins\\rainlab\\blog\\models\\PostImport.php',
+  'RainLab\\Blog\\Models\\PostExport' => 'plugins\\rainlab\\blog\\models\\PostExport.php',
 );

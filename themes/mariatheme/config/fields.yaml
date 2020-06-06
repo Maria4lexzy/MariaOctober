@@ -56,6 +56,28 @@ tabs:
       type: switch
       default: true
 
+    load_bootstrap4:
+      tab: Assets
+      label: Bootstrap4
+      type: switch
+      default: true
+
+    bootstrap4_version:
+      tab: Assets
+      label: Bootstrap4 Version
+      type: dropdown
+      default: 4.4.1
+      options:
+        4.4.1: 4.4.1(requires jQuery 3.4.1)
+        4.3.1: 4.3.1(requires jQuery 3.3.1)
+        4.2.1: 4.2.1(requires jQuery 3.3.1)
+        4.1.3: 4.1.3(requires jQuery 3.3.1)
+        4.0.0: 4.0.0(requires jQuery 3.2.1)
+      trigger:
+        action: show
+        field: load_bootstrap4
+        condition: checked
+
     load_jQuery:
       tab: Assets
       label: jQuery
@@ -66,16 +88,16 @@ tabs:
       tab: Assets
       label: jQuery Version
       type: dropdown
-      default: 2.2.4
+      default: 3.4.1
       options:
-        3.1.0: 3.1.0
-        2.2.4: 2.2.4
-        1.12.4: 1.12.4
+        3.4.1: 3.4.1
+        3.3.1: 3.3.1
+        3.2.1: 3.2.1
       trigger:
         action: show
         field: load_jQuery
         condition: checked
-
+    
     ####################################################
     # Tab: Styles
     ####################################################
